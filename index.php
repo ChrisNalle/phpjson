@@ -11,7 +11,6 @@ $file = "daftar.json";
 
 $datanime = file_get_contents($file, false, stream_context_create($arrContextOptions));
 $data = json_decode($datanime, true);
-
-echo $data[0]["kode_nime"];
-echo $data[0]["nama_nime"];
 ?>
+<?= $data[0]["kode_nime"]; ?>
+<?= $data[0]["nama_nime"]; ?>
