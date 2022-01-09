@@ -1,0 +1,37 @@
+[
+    {
+        "key": "100",
+        "kode": "001",
+        "judul": "Pemrograman WEB",
+        "penulis": "Danu",
+        "penerbit": "Graha ilmu"
+    },
+    {
+        "key": "101",
+        "kode": "002",
+        "judul": "JSON",
+        "penulis": "Saia",
+        "penerbit": "Dya"
+    },
+    {
+        "key": "1592531645",
+        "kode": "003",
+        "judul": "AJAX",
+        "penulis": "Budi",
+        "penerbit": "ASA"
+    },
+    {
+        "key": "531747500",
+        "kode": "004",
+        "judul": "MySQL",
+        "penulis": "Kadir",
+        "penerbit": "ASA"
+    },
+    {
+        "key": "2131853875",
+        "kode": "005",
+        "judul": "JavaScript",
+        "penulis": "Edi",
+        "penerbit": "Graha Ilmu"
+    }
+]
