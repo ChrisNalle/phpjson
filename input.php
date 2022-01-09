@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Create Studi Kasus Week 13</title>
+    <title>CREATE STUDI KASUS Week 13</title>
     </head>
     <body>
         <h2>CREATE DATA ANIME</h2>
