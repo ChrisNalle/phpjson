@@ -32,7 +32,14 @@
                 <tr>
                     <td>Musim Anime</td>
                     <td><select name="musim_nime">
-                        
+                        <?php 
+                            $arrayData = array("Fall", "Spring", "Summer", "Winter");
+                                for($i = 0; $i < count($arrayData); $i++){
+                        ?>
+                            <option value="<?= $arrayData[$i]; ?>" <?php if($d['musim_nime'] == $arrayData[$i]){ echo "selected"; } ?>><?= $arrayData[$i]; ?></option>
+                        <?php
+                                }
+                        ?>
                     </select></td>
                 </tr>
                 <tr>
