@@ -28,7 +28,7 @@
                     <td>Musim Anime</td>
                     <td><select name="musim_nime">
                         <option value="Fall">Fall</option>
-                        <option value="Spring">Spring</option>
+                        <option value="Spring" selected>Spring</option>
                         <option value="Summer">Summer</option>
                         <option value="Winter">Winter</option>
                     </select>

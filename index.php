@@ -19,6 +19,7 @@ $data = json_decode($datanime, true);
 		<td>Tahun Anime</td>
 		<td>Musim Anime</td>
 		<td>Total Episode</td>
+		<td>opsi</td>
 	<tr>
 		<?php
 			for($i = 0; $i < count($data); $i++){
@@ -28,6 +29,9 @@ $data = json_decode($datanime, true);
 		<td><?php echo $data[$i]["tahun_nime"];?></td>
 		<td><?php echo $data[$i]["musim_nime"];?></td>
 		<td><?php echo $data[$i]["total_eps"];?></td>
+		<td>
+			<a href="edit.php?kode_nime=<?php echo $data[$i]['kode_nime']; ?>">EDIT</a>
+			<a href="delete.php?kode_nime=<?php echo $data[$i]['kode_nime']; ?>">DELETE</a>
 	</tr>
 		<?php
 			}
