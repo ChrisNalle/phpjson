@@ -31,7 +31,9 @@
                 </tr>
                 <tr>
                     <td>Musim Anime</td>
-                    <td><input type="text" name="musim_nime" value="<?php echo $d['musim_nime']; ?>"></td>
+                    <td><select name="musim_nime">
+                        
+                    </select></td>
                 </tr>
                 <tr>
                     <td>Total Epsiode</td>
