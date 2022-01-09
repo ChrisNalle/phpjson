@@ -19,10 +19,16 @@ $data = json_decode($datanime, true);
 		<td>Musim Anime</td>
 		<td>Total Episode</td>
 	<tr>
-		<td><?php echo $data[0]["kode_nime"];?></td>
-		<td><?php echo $data[0]["nama_nime"];?></td>
-		<td><?php echo $data[0]["tahun_nime"];?></td>
-		<td><?php echo $data[0]["musim_nime"];?></td>
-		<td><?php echo $data[0]["total_eps"];?></td>
+		<?php
+			for($i = 0; $i < count($data); $i++){
+		?>
+		<td><?php echo $data[$i]["kode_nime"];?></td>
+		<td><?php echo $data[$i]["nama_nime"];?></td>
+		<td><?php echo $data[$i]["tahun_nime"];?></td>
+		<td><?php echo $data[$i]["musim_nime"];?></td>
+		<td><?php echo $data[$i]["total_eps"];?></td>
 	</tr>
+		<?php
+			}
+		?>
 </table>
