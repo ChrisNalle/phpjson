@@ -7,5 +7,5 @@
     $total_eps = $_POST['total_eps'];
 
     mysqli_query($koneksi,"insert into daftarnime values('$kode_nime','$nama_nime','$tahun_nime','$musim_nime','$total_eps')");
-    header("location:daftarnime.php");
+    header("location:data.php");
 ?>

@@ -6,4 +6,5 @@
         $fav=fopen("daftar.json","w");
         fwrite($fav,$nime);
         fclose($fav);
+        header("location:index.php");
 ?>

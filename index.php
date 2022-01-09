@@ -11,6 +11,7 @@ $file = "daftar.json";
 $datanime = file_get_contents($file, false, stream_context_create($arrContextOptions));
 $data = json_decode($datanime, true);
 ?>
+<a href="input.php">Tambah input</a>
 <table border="1">
 	<tr>
 		<td>Kode</td>

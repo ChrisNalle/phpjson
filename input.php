@@ -10,7 +10,7 @@
         <br/>
         <br/>
         <h3>TAMBAH BUKU</h3>
-        <form method="post" action="proses_input_nime.php">
+        <form method="post" action="prosestambah.php">
             <table>
                 <tr>
                     <td>Kode Anime</td>
