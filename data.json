@@ -33,5 +33,12 @@
         "judul": "JavaScript",
         "penulis": "Edi",
         "penerbit": "Graha Ilmu"
+    },
+    {
+        "key": "100286144",
+        "kode": "006",
+        "judul": "halo",
+        "penulis": "kevin",
+        "penerbit": "bukan penerbit"
     }
 ]
