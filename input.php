@@ -4,12 +4,12 @@
     <title>Create Studi Kasus Week 13</title>
     </head>
     <body>
-        <h2>Create Daftar Buku</h2>
+        <h2>CREATE DATA ANIME</h2>
         <br/>
         <a href="index.php">KEMBALI</a>
         <br/>
         <br/>
-        <h3>TAMBAH BUKU</h3>
+        <h3>TAMBAH ANIME</h3>
         <form method="post" action="prosestambah.php">
             <table>
                 <tr>

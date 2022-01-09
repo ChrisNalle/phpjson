@@ -4,12 +4,12 @@
     <title>CRUD PHP dan MySQLi</title>
     </head>
     <body>
-        <h2>UPDATE DATA BUKU</h2>
+        <h2>UPDATE DATA ANIME</h2>
         <br/>
         <a href="index.php">KEMBALI</a>
         <br/>
         <br/>
-        <h3>UPDATE DATA BUKU</h3>
+        <h3>UPDATE DATA ANIME</h3>
         <?php
         include 'koneksi.php';
         $kode_nime = $_GET['kode_nime'];
